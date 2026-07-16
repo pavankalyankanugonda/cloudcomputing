@@ -4,7 +4,7 @@ const app = express();
 const port = process.env.PORT || 3000;
 
 app.get("/", (_req, res) => {
-  res.json({ message: "ci-cd pipeline is working fine error pom kalyan Betey ra " });
+  res.json({ message: "ci-cd pipeline is working fine error pom kalyan Betey ra mawa " });
 
 });
 
